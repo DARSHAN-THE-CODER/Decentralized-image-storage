@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Decntralized image storage
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+1. Deploy script and use the same contract address in client
+2. Make sure you run hardhat before starting slient
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+To start hardhat --> npx hardhat node
+
+To deploy script --> npx hardhat run scripts/deploy.js
+
+To start client --> cd client && npm run start
 ```
