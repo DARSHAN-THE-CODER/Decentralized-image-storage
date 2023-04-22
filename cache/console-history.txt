@@ -1,0 +1,19 @@
+.help
+accounts
+accounts.add("e")
+accounts.add(e)
+console.log(accounts);
+const accounts = await ethers.provider.listAccounts();
+myContract.display(0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc)
+myContract.display()
+myContract.display
+myContract
+const myContract = new ethers.Contract(UploadContract, UploadContract.interface, accounts[0]);
+const UploadContract = await ethers.getContractFactory("Upload");
+const MyContract = await ethers.getContractFactory("Upload");
+const MyContract = await ethers.getContractFactory("upload");
+const accounts = await hre.ethers.getSigners()
+.help
+const Library = await ethers.getContractFactory('Library');
+const Box = await ethers.getContractFactory('Library');
+const Box = await ethers.getContractFactory('Box');
